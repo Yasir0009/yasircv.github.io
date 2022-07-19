@@ -1,0 +1,839 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+   background-image: url(./body_background.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+
+::selection{
+    background-color: rgba(0, 255, 242, 0.122);
+    color: rgb(255, 85, 0);
+}
+img{
+
+    height: 468px;
+    width: 742px;
+    position:absolute;
+    top: 70px;
+    left: 330px;
+    z-index: 1;
+}
+/* home icons style/////////////////////////////////////// */
+.nava ul{
+    position: absolute;
+    top:200px;
+    left: 1220px;
+    z-index: 1;
+}
+
+.nava ul li{
+    
+    margin: 10px;
+    padding: 10px 0px;
+    background-color: rgb(10, 10, 10);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -2px -2px 10px rgb(0, 0, 0);
+      
+}
+.nava ul li a{
+  
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    padding:20px;
+    font-weight: bold;
+   
+    
+}
+.nava ul li{
+    list-style: none;
+    
+}
+
+.nava ul li:hover{
+    color: white;
+    transition: 1s;
+    background-color: rgb(56, 56, 56);
+    font-weight: 700;
+    
+    transition: 2.5ms;
+  
+}
+
+/* .background style //////////////////////////////-------------------------------------------*/
+.background{
+    
+    height: 680px;
+    width: 1150px;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgba(0, 18, 19, 0.856));
+    
+}
+
+.nava ul{
+    position: fixed;
+    z-index: 1;
+}
+
+
+.background label{
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    position:inherit;
+    top: 10px;
+    left: 70px;
+}
+.background label::first-letter{
+    color:rgb(255, 51, 0);
+    font-family: 'Supermercado One', cursive;
+}
+.background a{
+    color:rgb(199, 199, 199);
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 12px;
+
+    position: inherit;
+    top: 15px;
+    left: 190px;
+    z-index: 1;
+    
+}
+.background h3{
+    color:rgb(255, 255, 255);
+    font-size: 37px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    position:inherit;
+    top: 250px;
+    left: 70px;
+}
+.im{
+    margin-top: 50px;
+}
+.background span{
+    color:rgb(255, 51, 0);
+}
+.background svg{
+  
+    height: 50px;
+    width: 50px;
+    position: inherit;
+    top:250px;
+    left: 140px;
+}
+/* right content */
+
+.right_content{
+    /* border: 1px solid rgb(255, 255, 255); */
+
+    height: 400px;
+    width: 350px;
+
+    position: absolute;
+    top: 120px;
+    left: 820px;
+    right: 70px;
+    z-index: 2;
+}
+.right_content h1{
+    color :rgb(160, 32, 0);
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.right_content p{
+    color: rgb(255, 255, 255);
+    font-family: 'Poiret One', cursive;
+    font-size: 23px;
+    font-weight: 500;
+    word-spacing: 2px;
+    
+}
+.right_content :nth-child(3){
+    margin-top: 30px;
+    font-size: 16px;
+
+}
+.right_content a{
+    color :rgb(160, 32, 0);
+    text-decoration:underline;
+    position: inherit;
+    top: 240px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
+/* circle styles //////////////////////////////////////////////////////////*/
+.circle {
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source:linear-gradient(60deg ,rgb(255, 51, 0),rgb(255, 255, 255) );
+    border-radius: 100%;
+    position:absolute;
+    top:100px;
+    left: 970px;
+    z-index: 3;
+}
+.circle2{
+    height: 20px;
+    width: 20px;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source:linear-gradient(60deg ,rgb(255, 51, 0),rgb(255, 255, 255) );
+    border-radius: 100%;
+    position:absolute;
+    top:100px;
+    left: 970px;
+    z-index: 4;
+}
+.circle3{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    position:absolute;
+    top:100px;
+    left: 1100px;
+    z-index: 5;
+    background-color: rgb(255, 51, 0);
+}
+.icon{
+    position: absolute;
+    top: 650px;
+    left: 570px;
+    z-index: 1;
+}
+.icon i{
+    margin: 10px;
+}
+
+/* three point */
+/* .background2////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.background2{
+    height: 1500px;
+    width: 1150px;
+    position: absolute;
+    top: 780px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.329);
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+
+/* Education */
+.education{
+    color: rgb(236, 236, 236);
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 85, 0);
+    padding-top: 4px;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    font-family: 'Poiret One', cursive;
+
+    position:relative;
+    left: 490px;
+    top: 60px;
+    z-index: 1;
+}
+
+/* vertical Line */
+.verticalLine{
+    border-left: 2px solid rgb(255, 51, 0);
+    height: 400px;
+    width: 1px;
+    border-radius: 2px;
+    position: absolute;
+    top: 65px;
+    left: 558px;
+}
+
+/* Education circle */
+.Ecircle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50px;
+    position: absolute;
+    top: 70px;
+    left: 552px;
+    margin-top: 100px;
+}
+.Ecircle1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50px;
+    position: absolute;
+    top: 190px;
+    left: 552px;
+    margin-top: 100px;
+}
+/* rectangle */
+.rectangle{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 51, 0);
+    border-end-end-radius:100% ;
+    border-top-right-radius: 100%;
+}
+
+/* school */
+.school{
+    color:white;
+    
+    height: 250px;
+    width: 400px;
+    position:absolute;
+    top: 140px;
+    left: 60px;
+    background-color: rgba(24, 24, 24, 0.712);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.school h3{
+    padding: 10px;
+    color: rgb(255, 85, 0);
+    font-family: 'Poiret One', cursive;
+}
+.school h2{
+    padding: 20px;
+    color: rgb(255, 85, 0);
+    font-family: 'Poiret One', cursive;
+}
+.school p{
+    font-family: 'Poiret One', cursive;
+    padding: 10px 10px 10px 20px;
+}
+
+
+/* University */
+.university{
+    color:white;
+    height: 250px;
+    width: 400px;
+    position:relative;
+    top: 190px;
+    left: 660px;
+    background-color: rgba(24, 24, 24, 0.712);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+.university h3{
+    padding: 10px;
+    color: rgb(255, 85, 0);
+    font-family: 'Poiret One', cursive;
+}
+.university h2{
+    padding: 20px;
+    color: rgb(255, 85, 0);
+    font-family: 'Poiret One', cursive;
+}
+
+.university p{
+    font-family: 'Poiret One', cursive;
+    padding: 10px 10px 10px 20px;
+}
+
+/* Skills ///////////////////////////////////////////////////////////////////////////////////// */
+
+.skills{
+    height: 435px;
+    position: relative;
+    top:200px
+}
+.skills >span{
+    color:rgb(255, 51, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin:50px;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+}
+/* Design > skills  */
+.design{
+    font-size: 23px;
+    font-weight: bolder;
+    color:rgb(67, 67, 67);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    writing-mode: vertical-lr;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    position:absolute;
+    top:70px;
+    left:110px;
+    
+    width: 450px;
+    height: 300px;
+
+    
+}
+
+/* photoshop Skills */
+.design h3{
+    writing-mode: horizontal-tb;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(24, 24, 24);
+    position: relative;
+    top:0;
+    
+
+}
+/* Photoshop line */
+.design :nth-child(2){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    top:50px;
+    left: 70px;
+    border-radius: 3px;
+}
+.design :nth-child(3){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:50px;
+    left: 70px;
+    border-radius: 3px;
+}
+/* Figma line */
+.design :nth-child(4){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top:100px;
+    left: 70px;
+    border-radius: 3px;
+}
+.design :nth-child(5){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:100px;
+    left: 70px;
+    border-radius: 3px;
+}
+
+/* Illustrator line */
+.design :nth-child(6){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top:150px;
+    left: 70px;
+    border-radius: 3px;
+}
+.design :nth-child(7){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:150px;
+    left: 70px;
+    border-radius: 3px;
+}
+
+
+ /* coding style */
+ .coding{
+    font-size: 23px;
+    font-weight: bolder;
+    color:rgb(67, 67, 67);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    writing-mode: vertical-lr;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    position:absolute;
+    top:70px;
+    left:610px;
+
+    width: 450px;
+    height: 300px;
+
+    
+}
+
+/* photoshop Skills */
+.coding h3{
+    writing-mode: horizontal-tb;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(37, 37, 37);
+    position: relative;
+    top:0;
+    
+
+}
+/* Html line */
+.coding :nth-child(2){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(19, 19, 19);
+    position: absolute;
+    top:50px;
+    left: 70px;
+    border-radius: 3px;
+}
+.coding :nth-child(3){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:50px;
+    left: 70px;
+    border-radius: 3px;
+}
+/* Css line */
+.coding :nth-child(4){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(26, 26, 26);
+    position: absolute;
+    top:100px;
+    left: 70px;
+    border-radius: 3px;
+}
+.coding :nth-child(5){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:100px;
+    left: 70px;
+    border-radius: 3px;
+}
+
+/* Js line */
+.coding :nth-child(6){
+    width: 360px;
+    height: 7px;
+    background-color: rgb(24, 24, 24);
+    position: absolute;
+    top:150px;
+    left: 70px;
+    border-radius: 3px;
+}
+.coding :nth-child(7){
+    width: 280px;
+    height: 7px;
+    background-color: rgb(255, 51, 0);
+    position: absolute;
+    top:150px;
+    left: 70px;
+    border-radius: 3px;
+}
+
+/* title of skills  */
+
+/* .design/////////////////////////////////////////////////// */
+.title_design{
+    
+    height:300px;
+    width: 600px;
+    position:absolute;
+    left: 160px;
+    
+}
+/* photoshop title */
+.title_design :nth-child(1){
+    color: rgb(17, 17, 17);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:60px;
+    left:20px;
+    
+}
+.title_design :nth-child(2){
+    color: rgb(15, 15, 15);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:60px;
+    left:320px;
+   
+    font-size: 15px;
+}
+/* illustrator title */
+.title_design :nth-child(3){
+    color: rgb(17, 17, 17);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:110px;
+    left:20px;
+    
+}
+.title_design :nth-child(4){
+    color: rgb(24, 24, 24);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:110px;
+    left:320px;
+    
+    font-size: 15px;
+}
+/* Figma Title */
+.title_design :nth-child(5){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:160px;
+    left:20px;
+    
+}
+.title_design :nth-child(6){
+    color: rgb(15, 15, 15);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:160px;
+    left:320px;
+    
+    font-size: 15px;
+}
+/* coding ///////////////////////////////////////////////////////////*/
+.title_coding{
+   
+    height:300px;
+    width: 400px;
+    position:absolute;
+    left: 660px;
+    
+}
+/* photoshop title */
+.title_coding :nth-child(1){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:60px;
+    left:20px;
+    
+}
+.title_coding :nth-child(2){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:60px;
+    left:320px;
+   
+    font-size: 15px;
+}
+/* illustrator title */
+.title_coding :nth-child(3){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:110px;
+    left:20px;
+    
+}
+.title_coding :nth-child(4){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:110px;
+    left:320px;
+    
+    font-size: 15px;
+}
+/* Figma Title */
+.title_coding :nth-child(5){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:160px;
+    left:20px;
+    
+}
+.title_coding :nth-child(6){
+    color: rgb(20, 20, 20);
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    top:160px;
+    left:320px;
+    
+    font-size: 15px;
+}
+
+/* language .................................................................................*/
+
+.language{
+    height: 435px;
+    position: relative;
+    top:200px
+}
+.language >h3{
+    color:rgb(255, 51, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin:50px;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+    top:0px;
+}
+#Layer_1{
+    width: 110px;
+    height: 110px;
+    padding-right:80px;
+    position:relative;
+    left:230px;
+}
+/* languages name8888888888888888888888888888888888888888888888888888888888888888888888888 */
+/* english */
+.n_language :nth-child(1){
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position:absolute;
+    top:80px;
+    left:170px;
+    
+    width: 450px;
+    height: 300px;  
+}
+/* persian */
+.n_language :nth-child(2){
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position:absolute;
+    top:80px;
+    left:370px;
+    
+    width: 450px;
+    height: 300px;  
+}
+/* uzbiki */
+.n_language :nth-child(3){
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position:absolute;
+    top:80px;
+    left:570px;
+    
+    width: 450px;
+    height: 300px;  
+}
+/* Hindi */
+.n_language :nth-child(4){
+    font-size: 23px;
+    font-weight: bolder;
+    color: rgb(20, 20, 20);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    position:absolute;
+    top:80px;
+    left:759px;
+    
+    width: 450px;
+    height: 300px;  
+}
+
+/* footer ------------------------------------------------------------------------*/
+.footer{
+    height: 200px;
+    width: 100%;
+
+    background-color: rgba(8, 8, 8, 0.658);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+.footer a{
+    
+    text-decoration: none;
+    position: relative;
+    left: 440px;
+    top:40px;
+    font-family: 'Poiret One', cursive;
+    color: rgba(235, 235, 235, 0.76);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    
+
+}
+/* address */
+.footer span{
+    
+    text-decoration: none;
+    position: absolute;
+    left: 430px;
+    bottom:20px;
+    font-family: 'Poiret One', cursive;
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+    padding: 10px;
+
+    font-weight: 550;
+    
+
+}
+
+/* CV */
+.footer :nth-child(5){
+    position: absolute;
+    top: 142px;
+    left: 800px;
+    font-weight: 500;
+    color: rgb(160, 160, 160);
+    text-decoration: underline;
+}
+
+.footer :nth-child(6){
+    position: absolute;
+    top: 142px;
+    left: 240px;
+    font-weight: 700;
+    color: rgb(160, 160, 160);
+    text-decoration: underline;
+}
